@@ -1,0 +1,154 @@
+/* index.css */
+
+/* Example styles for .App container */
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+/* Example styles for .subreddit-subscribe section */
+.subreddit-subscribe {
+  margin-bottom: 20px;
+}
+
+.subreddit-subscribe h2 {
+  font-size: 1.5rem;
+}
+
+.subreddit-subscribe button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.subreddit-subscribe button:hover {
+  background-color: #0056b3;
+}
+
+/* Example styles for .submit-post section */
+.submit-post {
+  margin-bottom: 20px;
+}
+
+.submit-post h2 {
+  font-size: 1.5rem;
+}
+
+.submit-post input[type="text"],
+.submit-post textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.submit-post button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.submit-post button:hover {
+  background-color: #218838;
+}
+
+/* Example styles for .subreddit-timeline section */
+.subreddit-timeline {
+  margin-bottom: 20px;
+}
+
+.subreddit-timeline .post {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.subreddit-timeline .post h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.subreddit-timeline .post p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.subreddit-timeline .post button {
+  background-color: #ffc107;
+  color: #000;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.subreddit-timeline .post button:hover {
+  background-color: #e0a800;
+}
+
+.subreddit-timeline .post ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.subreddit-timeline .post ul li {
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+
+.subreddit-timeline .post input[type="text"] {
+  width: calc(100% - 80px); /* Adjust based on your layout */
+  padding: 5px 10px;
+  font-size: 1rem;
+}
+
+.subreddit-timeline .post button.comment-button {
+  margin-left: 10px;
+}
+
+.subreddit-timeline .post hr {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+/* Example styles for .user-profile section */
+.user-profile {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.user-profile h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.user-profile h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.user-profile ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-profile ul li {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.user-profile button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.user-profile button:hover {
+  background-color: #c82333;
+}
